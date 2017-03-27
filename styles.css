@@ -18,35 +18,28 @@ header, footer, article, section, .container, p
 	width: 65%;
 }
 
-#heading #header
+#heading h1
 {
-		margin: 0 auto;
-		text-align: center;
-    font-size: 6em;
+    font-size: 60px;
 		margin-bottom: 10px;
-		background-color: #A7597E;
-		width: 50%;
 		padding: 5px;
 }
 
 #heading p
 {
-	margin: 0 auto;
-	text-align: center;
 	font-size: 20px;
-	background-color: #A7597E;
-	width: 35%;
 	padding: 5px;
 }
 
 #heading
 {
-	background-image: url(flowers.png);
+	text-align: center;
+	background-image: url(flower-banner.jpg);
 	padding: 40px;
 	color: white;
 }
 
-div
+#main
 {
 	padding: 10px;
 	color: white;
