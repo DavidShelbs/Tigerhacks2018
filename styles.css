@@ -39,7 +39,7 @@ header, footer, article, section, .container, p
 	color: white;
 }
 
-#main
+.main
 {
 	padding: 10px;
 	color: white;
@@ -60,11 +60,11 @@ div p
 	font-size: 20px;
 }
 
-#images
+.images
 {
 	width: 30%;
 	height: 30%;
-	margin: 0 10px;
+	margin: 20px 10px;
 }
 
 section
