@@ -34,16 +34,18 @@ header, footer, article, section, .container, p
 #heading
 {
 	text-align: center;
-	background-image: url(flower-banner.jpg);
+	background-image: url(header.jpg);
 	padding: 40px;
 	color: white;
+	width: 1700px;
+	margin: 0 auto;
 }
 
 #main
 {
 	padding: 10px;
 	color: white;
-	background-color: #A7597E;
+	background-color: #EAB6C2;
 	display: inline-block;
 	border: 3px solid black;
 	margin-bottom: 40px;
@@ -64,10 +66,12 @@ div p
 {
 	width: 30%;
 	height: 30%;
-	margin: 0 12px;
+	margin: 0 10px;
 }
 
 section
 {
 	margin: 0 auto;
+	box-shadow: 10px 10px 50px 0 black;
+	align: middle;
 }
