@@ -23,6 +23,7 @@ header, footer, article, section, .container, p
     font-size: 60px;
 		margin-bottom: 10px;
 		padding: 5px;
+		margin-top: 0;
 }
 
 #heading p
@@ -34,14 +35,19 @@ header, footer, article, section, .container, p
 #heading
 {
 	text-align: center;
-	background-image: url(header.jpg);
-	padding: 40px;
+	background-image: url(images/header.jpg);
+	padding: 2%;
 	color: white;
+	border-radius: 15px;
+	width: 90%;
+	margin: 0 auto;
+	margin-bottom: 40px;
+	box-shadow: 10px 10px 50px 0 black;
 }
 
 .main
 {
-	padding: 10px;
+	padding: 2%;
 	color: white;
 	background-color: #EAB6C2;
 	display: inline-block;
@@ -64,7 +70,7 @@ div p
 {
 	width: 30%;
 	height: 30%;
-	margin: 20px 10px;
+	margin: 2% 1%;
 }
 
 section
@@ -72,4 +78,10 @@ section
 	margin: 0 auto;
 	box-shadow: 10px 10px 50px 0 black;
 	align: middle;
+}
+
+#footer
+{
+	margin: 40px 2%;
+
 }
