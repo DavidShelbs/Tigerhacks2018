@@ -1,10 +1,13 @@
 <?php
-$name = $_POST['name'];
-$visitor_email = $_POST['email'];
-$message = $_POST['message'];
+if (isset($_POST['send']})
+{
+  $to = 'dnshelby712@gmail.com'
+  $subject = 'Promposal'
+  $message = 'Yes'
+  $headers = "From: kshelby99@hotmail.com"
 
-$email_from = 'yourname@yourwebsite.com';
-$email_subject = "New Form submission";
-$email_body = "You have received a new message from the user $name.\n".
-"Here is the message:\n $message".
+  echo $message
+}
+
+mail($to, $subject, $message, $headers)
 ?>
