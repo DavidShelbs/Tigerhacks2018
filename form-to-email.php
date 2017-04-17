@@ -4,7 +4,7 @@ if (isset($_POST['send']})
   $to = 'dnshelby712@gmail.com'
   $subject = 'Promposal'
   $message = 'Yes'
-  $headers = "From: kshelby99@hotmail.com"
+  $headers = "From: clashtroller99@gmail.com"
 
   echo $message
 
