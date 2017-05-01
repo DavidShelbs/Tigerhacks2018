@@ -9,13 +9,13 @@ h1
   color: #FAFCFF;
   background-color: #86CFFF;
   padding: 50px;
-  margin: 0px 0px 30px 0px;
+  margin: 0px 0px 2px 0px;
   text-align: center;
   border: 3px solid #32ADFC;
   border-radius: 5px;
   font-size: 60px;
 }
-#section1, #section2, #section3
+.main
 {
   background-color: #86CFFF;
   padding: 20px;
