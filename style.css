@@ -1,48 +1,23 @@
-body
+.container
 {
-  background-color: #B5E2FF;
-  text-align: left;
+  margin: 0 auto;
+  width: 65%;
 }
-h1
+
+header
 {
-  /*background-color: BurlyWood;*/
-  color: #FAFCFF;
-  background-color: #86CFFF;
-  padding: 50px;
-  margin: 0px 0px 2px 0px;
   text-align: center;
-  border: 3px solid #32ADFC;
-  border-radius: 5px;
-  font-size: 60px;
 }
-.main
+
+.site-navigation
 {
-  background-color: #86CFFF;
-  padding: 20px;
-  margin: 0px 0px 2px 0px;
-  border: 3px solid #32ADFC;
-  border-radius: 5px;
+  width: 100%;
+  text-align: center;
+  margin: 2% auto;
 }
-#section1
+
+.site-navigation p
 {
-  width: 45%;
-  float: left;
-}
-#section2
-{
-  width: 45%;
-  float: right;
-  margin-left: 2px;
-}
-#section3
-{
-  float: left;
-  width: 45%;
-}
-h2
-{
-  /*background-color: BurlyWood;*/
-  color: #FAFCFF;
-  text-align: left;
-  margin: 0px 0px 20px 0px;
+  display: inline-block;
+  margin: 0 5%;
 }
