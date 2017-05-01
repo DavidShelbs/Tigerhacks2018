@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width" />
+		<title>Practicing CSS</title>
+		<link rel="stylesheet" href="cssPracticeStyles.css" />
+	</head>
+	<body>
+		<article>
+			<header>
+				<h1 class="heading">Practicing with CSS</h1>
+				<p class=heading>Getting the basics</p>
+			</header>
+			<section id="section1">
+				<header>
+					<h2>Element selector</h2>
+					<p>Selecting by element name</p>
+				</header>
+				<p>
+					To select by element, you simply need to use the element's tag name. For example, to select the paragraph tags on the page you would simply use p followed by the curly brackets.
+					Selecting by element in CSS is the least specific form of selection in CSS.
+					The style used when selecting by element will be used when there are no other styles overriding the style given.
+					This method is the easiest to override on an element so be careful.
+				</p>
+			</section>
+			<section id="section2">
+				<header>
+					<h2>Class selector</h2>
+					<p>Selecting by class name</p>
+				</header>
+				<p>
+					To select elements by class name, you use a period. For example if there are elements with the class name wrapper, you would use .wrapper followed by the curly brackets.
+					Selecting by class in CSS is a great way to make sure different elements look a certain way if they are given that class name.
+				</p>
+			</section>
+			<section id="section3">
+				<header>
+					<h2>ID selector</h2>
+					<p>Selecting by ID</p>
+				</header>
+				<p>
+					To select elements by ID, you use a pound sign(aka number symbol, aka hashtag). For example if there is an element with the ID of foobar, you would use #foobar followed by the curly brackets.
+					Selecting by ID in CSS is a great way to style a specific element on a page without worrying about messing with the way other elements are styled..
+				</p>
+			</section>
+			<footer>
+				<p>&copy; CSS Practice CIS-130-103-SP17</p>
+			</footer>
+		</article>
+	</body>
+</html>
