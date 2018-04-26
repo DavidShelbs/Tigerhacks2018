@@ -1,0 +1,99 @@
+html
+{
+	font-size: 14px;
+	background-color: white;
+}
+
+header, footer, article, section, .container, p
+{
+	margin:0;
+}
+
+/*Body, Row, and Page Container Styles*/
+.container
+{
+	margin: 0 auto;
+	min-width: 350px;
+	margin-top: 10px;
+	width: 65%;
+}
+
+#heading h1
+{
+    font-size: 60px;
+		margin-bottom: 10px;
+		padding: 5px 0;
+		margin-top: 0;
+}
+
+#heading p
+{
+	font-size: 20px;
+	padding: 5px 0;
+}
+
+#heading
+{
+	text-align: center;
+	background-image: url(images/header.jpg);
+	color: white;
+	border-radius: 15px;
+	width: 90%;
+	margin: 0 auto;
+	margin-bottom: 20px;
+	box-shadow: 10px 10px 50px 0 black;
+}
+
+.main
+{
+	padding: 2%;
+	color: white;
+	background-color: #EAB6C2;
+	display: inline-block;
+	border: 3px solid black;
+	margin-bottom: 40px;
+	box-shadow: 10px 10px 50px 0 black;
+}
+
+div h2
+{
+	font-size: 40px;
+}
+
+div p
+{
+	font-size: 20px;
+}
+
+.images
+{
+	width: 30%;
+	height: 30%;
+	margin: 2% 1%;
+}
+
+section
+{
+	margin: 0 auto;
+	box-shadow: 10px 10px 50px 0 black;
+	align: middle;
+}
+
+#footer
+{
+	margin: 40px 2%;
+
+}
+
+@media screen and (max-width: 500px), print
+{
+	#heading p
+	{
+		font-size: 15px;
+	}
+}
+
+input
+{
+	margin: 20px 20px 0 20px;
+}
