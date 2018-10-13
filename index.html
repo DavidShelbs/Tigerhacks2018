@@ -3,6 +3,8 @@
 <title>Just Journalism</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="https://www.gstatic.com/firebasejs/5.5.4/firebase.js"></script>
+<script src="config.js"></script>
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -301,19 +303,7 @@ Jonah Peretti’s viral-content machine purports to have solved the problems of 
 
 <!-- End page content -->
 </div>
-<script src="https://www.gstatic.com/firebasejs/5.5.4/firebase.js"></script>
-<script>
-  // Initialize Firebase
-  var config = {
-    apiKey: "AIzaSyDvS1iKaPVJB2c9rgqcN9QaLSTVFe-JALA",
-    authDomain: "tiger-hacks.firebaseapp.com",
-    databaseURL: "https://tiger-hacks.firebaseio.com",
-    projectId: "tiger-hacks",
-    storageBucket: "tiger-hacks.appspot.com",
-    messagingSenderId: "212965664128"
-  };
-  firebase.initializeApp(config);
-</script>
+<script src="app.js"></script>
 <script>
 // Script to open and close sidebar
 function w3_open() {
